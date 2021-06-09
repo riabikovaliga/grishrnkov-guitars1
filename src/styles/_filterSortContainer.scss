@@ -1,0 +1,22 @@
+.filterSortContainer {
+    max-width: 1020px;
+    padding  : 20px 40px;
+    margin   : 0 auto;
+    @include flex;
+    align-items    : flex-start;
+    justify-content: flex-end;
+    margin-bottom  : -8px;
+    min-width      : 1025px;
+
+    @media (max-width: 1024px) {
+        max-width   : 768px;
+        padding-left: 30px;
+    }
+
+    @media (max-width: 769px) {
+        max-width      : 320px;
+        padding        : 9px 22px 11px 20px;
+        justify-content: space-between;
+        position       : relative;
+    }
+}

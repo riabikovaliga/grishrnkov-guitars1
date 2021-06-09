@@ -1,0 +1,245 @@
+[
+ {
+   "id": "1",
+   "art": "SO757575",
+   "name": "Честер Bass",
+   "type": "Электрогитара",
+   "popular": "15",
+   "strings": "7",
+   "price": "17500"
+ },
+ {
+   "id": "2",
+   "art": "TK129049",
+   "name": "СURT Z300",
+   "type": "Электрогитара",
+   "popular": "9",
+   "strings": "7",
+   "price": "29500"
+ },
+ {
+   "id": "3",
+   "art": "RO111111",
+   "name": "Roman LX",
+   "type": "Укулеле",
+   "popular": "21",
+   "strings": "4",
+   "price": "6800"
+ },
+ {
+   "id": "4",
+   "art": "TK436457",
+   "name": "СURT T300",
+   "type": "Электрогитара",
+   "popular": "15",
+   "strings": "6",
+   "price": "30000"
+ },
+ {
+   "id": "5",
+   "art": "DI192138",
+   "name": "Dania Super",
+   "type": "Акустическая гитара",
+   "popular": "5",
+   "strings": "7",
+   "price": "3500"
+ },
+ {
+   "id": "6",
+   "art": "SO934345",
+   "name": "Честер WX ",
+   "type": "Электрогитара",
+   "popular": "17",
+   "strings": "6",
+   "price": "15300"
+ },
+ {
+   "id": "7",
+   "art": "DI082347",
+   "name": "Dania VX",
+   "type": "Укулеле",
+   "popular": "5",
+   "strings": "4",
+   "price": "2200"
+ },
+ {
+   "id": "8",
+   "art": "SO135646",
+   "name": "Честер Plus ",
+   "type": "Электрогитара",
+   "popular": "27",
+   "strings": "4",
+   "price": "30000"
+ },
+ {
+   "id": "9",
+   "art": "VO154751",
+   "name": "Виолана 300",
+   "type": "Акустическая гитара",
+   "popular": "3",
+   "strings": "7",
+   "price": "1700"
+ },
+ {
+   "id": "10",
+   "art": "TK244556",
+   "name": "СURT Clasic",
+   "type": "Электрогитара",
+   "popular": "20",
+   "strings": "4",
+   "price": "23000"
+ },
+ {
+   "id": "11",
+   "art": "TK134663",
+   "name": "СURT Z250",
+   "type": "Электрогитара",
+   "popular": "19",
+   "strings": "4",
+   "price": "18700"
+ },
+ {
+   "id": "12",
+   "art": "SO123212",
+   "name": "Честер 7X",
+   "type": "Электрогитара",
+   "popular": "30",
+   "strings": "7",
+   "price": "35000"
+ },
+ {
+   "id": "13",
+   "art": "SO123234",
+   "name": "Честер 6V",
+   "type": "Электрогитара",
+   "popular": "28",
+   "strings": "6",
+   "price": "14900"
+ },
+ {
+   "id": "14",
+   "art": "VO519510",
+   "name": "Виолана Mix",
+   "type": "Акустическая гитара",
+   "popular": "7",
+   "strings": "6",
+   "price": "7600"
+ },
+ {
+   "id": "15",
+   "art": "VO457369",
+   "name": "Виолана 250x",
+   "type": "Акустическая гитара",
+   "popular": "19",
+   "strings": "6",
+   "price": "6500"
+ },
+ {
+   "id": "16",
+   "art": "FB625903",
+   "name": "Фабио Лайт",
+   "type": "Акустическая гитара",
+   "popular": "26",
+   "strings": "7",
+   "price": "12000"
+ },
+ {
+   "id": "17",
+   "art": "FB576948",
+   "name": "Фабио L100",
+   "type": "Акустическая гитара",
+   "popular": "31",
+   "strings": "7",
+   "price": "9900"
+ },
+ {
+   "id": "18",
+   "art": "LU012032",
+   "name": "Liana Z200",
+   "type": "Акустическая гитара",
+   "popular": "28",
+   "strings": "12",
+   "price": "8900"
+ },
+ {
+   "id": "19",
+   "art": "LU546853",
+   "name": "Liana Z100",
+   "type": "Акустическая гитара",
+   "popular": "34",
+   "strings": "12",
+   "price": "10500"
+ },
+ {
+   "id": "20",
+   "art": "LU458283",
+   "name": "Liana Z300",
+   "type": "Акустическая гитара",
+   "popular": "9",
+   "strings": "6",
+   "price": "13300"
+ },
+ {
+   "id": "21",
+   "art": "RO324341",
+   "name": "Roman RX",
+   "type": "Укулеле",
+   "popular": "37",
+   "strings": "4",
+   "price": "4800"
+ },
+ {
+   "id": "22",
+   "art": "RO214235",
+   "name": "Roman TX",
+   "type": "Укулеле",
+   "popular": "5",
+   "strings": "4",
+   "price": "1900"
+ },
+ {
+   "id": "23",
+   "art": "DI132414",
+   "name": "Dania U100",
+   "type": "Укулеле",
+   "popular": "23",
+   "strings": "4",
+   "price": "2500"
+ },
+ {
+   "id": "24",
+   "art": "DI934754",
+   "name": "Dania WR",
+   "type": "Укулеле",
+   "popular": "3",
+   "strings": "4",
+   "price": "3800"
+ },
+ {
+   "id": "25",
+   "art": "DI034292",
+   "name": "Dania LE",
+   "type": "Укулеле",
+   "popular": "10",
+   "strings": "4",
+   "price": "4100"
+ },
+ {
+   "id": "26",
+   "art": "MI193214",
+   "name": "Mirana V10",
+   "type": "Укулеле",
+   "popular": "14",
+   "strings": "4",
+   "price": "2700"
+ },
+ {
+   "id": "27",
+   "art": "VO043244",
+   "name": "Виолана Mini",
+   "type": "Укулеле",
+   "popular": "29",
+   "strings": "4",
+   "price": "6700"
+ }
+]

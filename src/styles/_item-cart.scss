@@ -1,0 +1,146 @@
+.cart__item {
+    @include flex;
+    border-bottom: 1px solid #ecebeb;
+
+    &:nth-child(1) {
+        border-top: 1px solid #ecebeb;
+    }
+}
+
+.cart__item-close {
+    font-size   : 0;
+    margin-right: 25px;
+
+    &::before {
+        content: url("img/close-cart.svg");
+    }
+}
+
+.cart__item-img {
+    margin-right: 60px;
+}
+
+.cart__item-info {
+    margin-right: 95px;
+}
+
+.cart__item-info-name {
+    color         : #000000;
+    font-family   : "Droid Sans Bold, Arial, sans-serif";
+    font-size     : 16px;
+    font-weight   : 700;
+    font-style    : normal;
+    letter-spacing: 0.8px;
+    line-height   : 15px;
+    text-transform: uppercase;
+}
+
+.cart__item-info-articul {
+    color         : #000000;
+    font-family   : "Droid Sans Regular, Arial, sans-serif";
+    font-size     : 14px;
+    font-weight   : 400;
+    font-style    : normal;
+    letter-spacing: 0.7px;
+    line-height   : 15px;
+}
+
+.cart__item-info-about {
+    color         : #000000;
+    font-family   : "Droid Sans Regular, Arial, sans-serif";
+    font-size     : 14px;
+    font-weight   : 400;
+    font-style    : normal;
+    letter-spacing: 0.7px;
+    line-height   : 15px;
+}
+
+.cart__item-price {
+    margin-right: 90px;
+}
+
+.cart__item-price-total {
+    color         : #000000;
+    font-family   : "Droid Sans Regular, Arial, sans-serif";
+    font-size     : 20px;
+    font-weight   : 400;
+    font-style    : normal;
+    letter-spacing: 1px;
+    line-height   : 15px;
+}
+
+.cart__item-total-price-number {
+    color         : #000000;
+    font-family   : "Droid Sans Bold, Arial, sans-serif";
+    font-size     : 20px;
+    font-weight   : 700;
+    font-style    : normal;
+    letter-spacing: 1px;
+    line-height   : 15px;
+}
+
+.cart__item-count-list {
+    @include flex
+}
+
+.cart__item-count {
+    margin-right: 90px;
+}
+
+
+.cart__item-count-list-item {
+    width   : 28px;
+    height  : 30px;
+    border  : 1px solid #9f9e9e;
+    position: relative;
+
+    &:nth-child(2n) {
+        border-right: none;
+        border-left : none;
+    }
+}
+
+.cart__item-count-list-item-link--dis {
+    font-size: 0;
+    padding  : 14px;
+
+    &::before {
+        content  : url("img/minus.svg");
+        width    : 8px;
+        height   : 1px;
+        position : absolute;
+        left     : 50%;
+        transform: translateX(-50%);
+        top      : 50%;
+    }
+}
+
+.cart__item-count-list-item-link--inc {
+    font-size: 0;
+    padding  : 14px;
+
+    &::before {
+        content  : url("img/plus.svg");
+        width    : 8px;
+        height   : 1px;
+        position : absolute;
+        left     : 50%;
+        transform: translateX(-55%);
+        top      : 39%;
+
+    }
+}
+
+.cart__item-count-list-item-link-total-count {
+    color         : #9f9e9e;
+    font-family   : "Droid Sans Regular, Arial, sans-serif";
+    font-size     : 16px;
+    font-weight   : 400;
+    font-style    : normal;
+    letter-spacing: 0.8px;
+    line-height   : 15px;
+    position      : absolute;
+    left          : 50%;
+    transform     : translateX(-50%);
+    top           : 25%;
+}

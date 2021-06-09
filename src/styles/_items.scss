@@ -1,0 +1,73 @@
+.items {
+    @include flex;
+    width          : 718px;
+    margin-top     : -580px;
+    margin-right   : -17px;
+    justify-content: flex-start;
+}
+
+.items__page {
+    width         : 24px;
+    height        : 24px;
+    border        : 0.7px solid #9F9E9E;
+    border-radius : 2px;
+    font-family   : "Droid Sans Regular, Arial, sans-serif";
+    font-style    : normal;
+    font-weight   : normal;
+    font-size     : 12px;
+    line-height   : 20px;
+    letter-spacing: 0.05em;
+    color         : #000000;
+    margin-right  : 10px;
+    text-align    : center;
+    display       : block;
+}
+
+.items__page--active {
+    background    : #585757;
+    font-family   : "Droid Sans Regular, Arial, sans-serif";
+    font-style    : normal;
+    font-weight   : normal;
+    font-size     : 12px;
+    line-height   : 20px;
+    letter-spacing: 0.05em;
+    color         : #FFFFFF;
+}
+
+.items__page-next {
+    width         : 80px;
+    height        : 25px;
+    background    : #FFFFFF;
+    border        : 0.7px solid #9F9E9E;
+    border-radius : 2px;
+    font-family   : "Droid Sans Regular, Arial, sans-serif";
+    font-style    : normal;
+    font-weight   : normal;
+    font-size     : 12px;
+    line-height   : 20px;
+    letter-spacing: 0.05em;
+    color         : #000000;
+    text-align    : center;
+    margin-top    : -3px;
+    margin-right  : 17px;
+
+}
+
+.pagination__list {
+    @include flex;
+    margin-right: 4px;
+    margin-top  : -3px;
+
+}
+
+.pagination__item {
+    margin-right: 0px;
+
+    &:nth-last-child(1) {
+        margin-right: 0;
+    }
+}
+
+.pagination {
+    margin-left: auto;
+}

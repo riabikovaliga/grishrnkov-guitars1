@@ -1,0 +1,264 @@
+.header {
+    background-color: #dddada;
+    min-width: 1025px;
+}
+
+.header__inner {
+    max-width: 1020px;
+    padding  : 20px 40px;
+    margin   : 0 auto;
+    @include flex(row, flex-start, nowrap);
+
+    @media (max-width: 1024px) {
+        max-width   : 768px;
+        padding-left: 30px;
+    }
+
+    @media (max-width: 769px) {
+        max-width      : 320px;
+        padding        : 9px 22px 11px 20px;
+        justify-content: space-between;
+        position       : relative;
+    }
+}
+
+.header__logo {
+    background  : url("img/Logo.png") no-repeat;
+    width       : 67px;
+    height      : 70px;
+    margin-left : 2px;
+    margin-right: 69px;
+    cursor      : pointer;
+
+    @media (max-width: 1024px) {
+        margin-right: 38px;
+    }
+
+    @media (max-width: 769px) {
+        background  : url("img/Logo-mobile.png") no-repeat;
+        width       : 37px;
+        height      : 40px;
+        margin-right: 0;
+        margin-top  : 1px;
+        margin-left : 8px;
+    }
+}
+
+.header__nav {
+    @include flex(row, space-between, nowrap);
+    margin-right: 158px;
+
+    @media (max-width: 1024px) {
+        margin-right: 49px;
+    }
+
+    @media (max-width: 769px) {
+        display       : none;
+        flex-direction: row;
+        background    : #3f3f3f;
+        position      : absolute;
+        top           : 0;
+        left          : 0;
+        padding       : 19px 66px 25px 19px;
+    }
+}
+
+.header__nav-item {
+
+    margin-right: 43px;
+
+    &:nth-child(5n) {
+        margin-right: 0;
+    }
+
+    @media (max-width: 1024px) {
+        margin-right: 22px;
+    }
+
+    @media (max-width: 769px) {
+        margin-right : 0;
+        margin-bottom: 13.9px;
+
+    }
+}
+
+.header__nav-item-link {
+    color         : #000000;
+    font-family   : $regular;
+    font-size     : 14px;
+    letter-spacing: 0.85px;
+    line-height   : 20px;
+
+    @media (max-width: 769px) {
+        color         : #ffffff;
+        font-family   : "Droid Sans Regular, Arial, sans-serif";
+        font-size     : 12px;
+        font-weight   : 400;
+        font-style    : normal;
+        letter-spacing: 0.6px;
+
+    }
+}
+
+.header__user {
+    @include flex(row, flex-start, nowrap);
+    max-width: 113px;
+}
+
+.header__user-item-link {
+    font-size: 0;
+}
+
+.header__user-item {
+    margin-right: 36px;
+
+    &:nth-child(3n) {
+        margin-right: 0;
+    }
+}
+
+.header__user-item--location {
+    margin-right: 50px;
+
+    @media (max-width: 1024px) {
+        margin-right: 47px;
+    }
+
+    @media (max-width: 769px) {
+        display: none;
+    }
+
+    & a {
+        position: relative;
+
+        &::before {
+            content : url("img/point.svg");
+            position: absolute;
+            width   : 14px;
+            height  : 16px;
+        }
+    }
+
+}
+
+.header__user-item--search {
+    margin-right: 48px;
+
+    @media (max-width: 1024px) {
+        margin-right: 44px;
+    }
+
+    @media (max-width: 769px) {
+        margin-right: 17px;
+    }
+
+
+    & a {
+        position: relative;
+
+        &::before {
+            content : url("img/search.svg");
+            position: absolute;
+            width   : 14px;
+            height  : 14px;
+
+            @media (max-width: 769px) {
+                content: url("img/search-mobile.svg");
+                width  : 10px;
+                height : 10px;
+                left   : -29px;
+                top    : -8px;
+            }
+        }
+    }
+
+}
+
+.header__user-item--cart {
+    & a {
+        position: relative;
+
+        &::before {
+            content : url("img/cart.svg");
+            position: absolute;
+            width   : 14px;
+            height  : 14px;
+
+            @media (max-width: 769px) {
+                content: url("img/cart-mobile.svg");
+                width  : 10px;
+                height : 10px;
+                left   : -19px;
+                top    : -9px;
+            }
+        }
+    }
+
+    & .header__user-item-link-count {
+        color      : #f20505;
+        font-family: $regular;
+        font-size  : 10px;
+        font-weight: 400;
+        position   : absolute;
+        transform  : translate(17px, -2px);
+
+        @media (max-width: 769px) {
+            transform: translate(-6px, -2px);
+        }
+    }
+
+}
+
+.header__burger {
+    background: url("img/burger.svg") no-repeat;
+    width     : 14px;
+    height    : 9px;
+    display   : none;
+
+    @media (max-width: 769px) {
+        display: block;
+    }
+}
+
+.header__nav-item-close {
+    display   : none;
+    background: url("img/close-mobile.svg") no-repeat;
+    width     : 12px;
+    height    : 12px;
+}
+
+.header__nav-item--services {
+    @media (max-width: 769px) {
+        margin-bottom: 21px;
+    }
+
+
+}
+
+.header__nav-item--shops {
+    display     : none;
+    padding-left: 27px;
+    position    : relative;
+
+    &::before {
+        position: absolute;
+        content : url("img/shops-header.svg");
+        left    : 5px;
+        bottom  : 1px;
+    }
+
+}
+
+.header--burger-active {
+    & .header__nav {
+        display: block;
+    }
+
+    & .header__nav-item-close {
+        display: block;
+    }
+
+    & .header__nav-item--shops {
+        display: block;
+    }
+}

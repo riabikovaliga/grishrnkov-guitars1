@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/guitars/static/css/main.9c78aaca.chunk.css",
+    "main.js": "/guitars/static/js/main.b533fb53.chunk.js",
+    "main.js.map": "/guitars/static/js/main.b533fb53.chunk.js.map",
+    "runtime-main.js": "/guitars/static/js/runtime-main.eaf00095.js",
+    "runtime-main.js.map": "/guitars/static/js/runtime-main.eaf00095.js.map",
+    "static/js/2.dbdb3c22.chunk.js": "/guitars/static/js/2.dbdb3c22.chunk.js",
+    "static/js/2.dbdb3c22.chunk.js.map": "/guitars/static/js/2.dbdb3c22.chunk.js.map",
+    "index.html": "/guitars/index.html",
+    "static/css/main.9c78aaca.chunk.css.map": "/guitars/static/css/main.9c78aaca.chunk.css.map",
+    "static/js/2.dbdb3c22.chunk.js.LICENSE.txt": "/guitars/static/js/2.dbdb3c22.chunk.js.LICENSE.txt",
+    "static/media/acu-max.e69133cd.png": "/guitars/static/media/acu-max.e69133cd.png",
+    "static/media/style.css": "/guitars/static/media/up.1a04d870.svg",
+    "static/media/electro-max.bb21246a.png": "/guitars/static/media/electro-max.bb21246a.png",
+    "static/media/ucu-max.7a2b2f0b.png": "/guitars/static/media/ucu-max.7a2b2f0b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eaf00095.js",
+    "static/js/2.dbdb3c22.chunk.js",
+    "static/css/main.9c78aaca.chunk.css",
+    "static/js/main.b533fb53.chunk.js"
+  ]
+}

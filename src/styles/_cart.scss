@@ -1,0 +1,93 @@
+.cart {
+    max-width    : 1020px;
+    padding-left : 40px;
+    padding-right: 40px;
+    margin       : 0 auto;
+    @include flex;
+    justify-content: space-between;
+}
+
+.cart__promo-title {
+    color         : #000000;
+    font-family   : "Droid Sans Bold, Arial, sans-serif";
+    font-size     : 16px;
+    font-weight   : 700;
+    font-style    : normal;
+    letter-spacing: 0.8px;
+    margin-bottom : 10px;
+}
+
+.cart__promo-info {
+    color         : #000000;
+    font-family   : "Droid Sans Regular, Arial, sans-serif";
+    font-size     : 12px;
+    font-weight   : 400;
+    font-style    : normal;
+    letter-spacing: 0.6px;
+    margin-bottom : 15px;
+}
+
+.cart__promo-input {
+    width        : 170px;
+    height       : 36px;
+    border-radius: 2px;
+    border       : 2px solid #dddada;
+}
+
+.cart__promo-btn {
+    width           : 200px;
+    height          : 36px;
+    border-radius   : 2px;
+    background-color: #c1c1c1;
+    color           : #ffffff;
+    font-family     : "Droid Sans Bold, Arial, sans-serif";
+    font-size       : 16px;
+    font-weight     : 700;
+    font-style      : normal;
+    letter-spacing  : 0.8px;
+    line-height     : 15px;
+    position        : absolute;
+    right           : 0;
+    top             : 59px;
+}
+
+.cart__total-count {
+    width         : 170px;
+    color         : #000000;
+    font-family   : "Droid Sans Bold, Arial, sans-serif";
+    font-size     : 20px;
+    font-weight   : 700;
+    font-style    : normal;
+    letter-spacing: 1px;
+    line-height   : 15px;
+    margin-bottom : 40px;
+}
+
+.cart__total-btn {
+    width           : 220px;
+    height          : 36px;
+    border-radius   : 2px;
+    background-color: #e27f00;
+    color           : #ffffff;
+    font-family     : "Droid Sans Bold, Arial, sans-serif";
+    font-size       : 16px;
+    font-weight     : 700;
+    font-style      : normal;
+    letter-spacing  : 0.8px;
+    line-height     : 15px;
+}
+
+.cart__promo {
+    max-width: 405px;
+    @include flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.cart__total {
+    max-width: 221px;
+}
+
+.cart__list {
+    margin-bottom: 30px;
+}

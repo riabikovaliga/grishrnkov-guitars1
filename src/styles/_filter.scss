@@ -1,0 +1,216 @@
+.filter__type-input {
+    @include visually-hidden;
+
+}
+
+.filter__string-input {
+    @include visually-hidden
+}
+
+.filter__type-checkbox {
+    position  : absolute;
+    width     : 24px;
+    height    : 24px;
+    background: url("img/clear-checkbox.svg");
+}
+
+.filter__string-checkbox {
+    position  : absolute;
+    width     : 24px;
+    height    : 24px;
+    background: url("img/clear-checkbox.svg");
+}
+
+.filter__type-input:checked+.filter__type-checkbox {
+    background: url("img/filled-checkbox.svg");
+}
+
+.filter__string-input:checked+.filter__string-checkbox {
+    background: url("img/filled-checkbox.svg");
+}
+
+.filter__string-input:disabled+.filter__string-checkbox {
+    background-color: #f6f3f3;
+    opacity         : 0.5;
+}
+
+.filter__name {
+    color         : #000000;
+    font-family   : "Droid Sans Bold, Arial, sans-serif";
+    font-size     : 18px;
+    font-weight   : 700;
+    padding-bottom: 32px;
+    margin-bottom : 32px;
+    border-bottom : 1px solid #e7e4e4;
+    letter-spacing: 1.8px;
+
+}
+
+.filter__type-label {
+    color       : #000000;
+    font-family : "Droid Sans Regular, Arial, sans-serif";
+    font-size   : 16px;
+    font-weight : 400;
+    padding-left: 40px;
+    @include flex;
+    margin-bottom : 17px;
+    letter-spacing: 0.5px;
+    margin-bottom : 21px;
+
+
+    &:nth-child(4n) {
+        margin-bottom: 0;
+    }
+
+}
+
+.filter__string-label {
+    color       : #000000;
+    font-family : "Droid Sans Regular, Arial, sans-serif";
+    font-size   : 16px;
+    font-weight : 400;
+    padding-left: 40px;
+    @include flex;
+    margin-bottom: 21px;
+
+}
+
+.filter__type-checkbox {
+    margin-left: -40px;
+
+
+}
+
+.filter__string-checkbox {
+    margin-left: -40px;
+
+}
+
+.filter {
+    max-width   : 208px;
+    margin-right: 32px;
+
+}
+
+.filter__price-inner {
+    @include flex(row, space-between);
+    position      : relative;
+    border-bottom : 1px solid #e7e4e4;
+    padding-bottom: 29px;
+
+    &::before {
+        content         : "";
+        position        : absolute;
+        background-color: #585757;
+        width           : 14px;
+        height          : 1px;
+        right           : 97px;
+    }
+}
+
+.filter__price-from {
+    width        : 84px;
+    height       : 28px;
+    border-radius: 2px;
+    border       : 1px solid #9f9e9e;
+    font-family  : "Droid Sans Regular, Arial, sans-serif";
+    font-style   : normal;
+    font-weight  : normal;
+    font-size    : 14px;
+    line-height  : 10px;
+    color        : rgba(0, 0, 0, 0.6);
+    text-align   : center;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+.filter__price-to {
+    width        : 84px;
+    height       : 28px;
+    border-radius: 2px;
+    border       : 1px solid #9f9e9e;
+    font-family  : "Droid Sans Regular, Arial, sans-serif";
+    font-style   : normal;
+    font-weight  : normal;
+    font-size    : 14px;
+    line-height  : 10px;
+    color        : rgba(0, 0, 0, 0.6);
+    text-align   : center;
+}
+
+.filter__price-name {
+    color         : #000000;
+    font-size     : 18px;
+    font-family   : "Droid Sans Bold, Arial, sans-serif";
+    font-weight   : 700;
+    margin-bottom : 25px;
+    letter-spacing: 1px;
+}
+
+.filter__type-name {
+    color         : #000000;
+    font-size     : 18px;
+    font-family   : "Droid Sans Bold, Arial, sans-serif";
+    font-weight   : 700;
+    margin-bottom : 30px;
+    padding-left  : 1px;
+    margin-top    : -1px;
+    letter-spacing: 1.2px;
+}
+
+.filter__string-name {
+    color         : #000000;
+    font-size     : 18px;
+    font-family   : "Droid Sans Bold, Arial, sans-serif";
+    font-weight   : 700;
+    margin-bottom : 28px;
+    letter-spacing: 1.4px;
+    margin-bottom : 29px;
+
+}
+
+.filter__btn {
+    width           : 120px;
+    height          : 30px;
+    border-radius   : 2px;
+    background-color: #c1c1c1;
+    color           : #ffffff;
+    font-family     : "Droid Sans Bold, Arial, sans-serif";
+    font-size       : 12px;
+    font-weight     : 700;
+    text-transform  : uppercase;
+    letter-spacing  : 0.8px;
+
+}
+
+.filter__price {
+    margin-bottom: 33px;
+}
+
+.filter__type {
+    border-bottom : 1px solid #e7e4e4;
+    padding-bottom: 33px;
+    margin-bottom : 32px;
+}
+
+.filter__string {
+    margin-bottom: 44px;
+}
+
+.filter__type-label span {
+
+    &:active {
+        opacity: 0.5;
+    }
+}
+
+.filter__string-num-disabled {
+    opacity: 0.5;
+}

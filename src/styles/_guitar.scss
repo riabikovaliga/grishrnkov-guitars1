@@ -1,0 +1,23 @@
+.guitar {
+    background: url("img/image-back.png") no-repeat;
+    width     : 1020px;
+    height    : 282px;
+    max-width : 1020px;
+    margin    : 0 auto;
+    margin-top: -37px;
+
+    @media (max-width: 1024px) {
+        background: url("img/image-back-tablet.png") right no-repeat;
+        width     : 768px;
+        height    : 213.23px;
+        margin-top: -24px;
+    }
+
+    @media (max-width: 769px) {
+        width     : 320px;
+        height    : 106.63px;
+        background: url("img/image-back-mobile.png") right no-repeat;
+        margin-top: -14px;
+
+    }
+}

@@ -1,0 +1,136 @@
+.item {
+    margin-right: 19px;
+    @include flex;
+    padding        : 16px 14px 20px 12px;
+    width          : 220px;
+    justify-content: space-between;
+    border         : 1px solid #dddada;
+    margin-bottom  : 30px;
+}
+
+.item__name {
+    color         : #000000;
+    font-family   : "Droid Sans Regular, Arial, sans-serif";
+    font-size     : 14px;
+    font-weight   : 400;
+    letter-spacing: 0.7px;
+    line-height   : 15px;
+    flex-basis    : 50%;
+    margin-bottom : 11px;
+}
+
+.item__price {
+    color         : #000000;
+    font-family   : "Droid Sans Regular, Arial, sans-serif";
+    font-size     : 14px;
+    font-weight   : 400;
+    letter-spacing: 0.7px;
+    line-height   : 15px;
+    flex-basis    : 50%;
+    margin-bottom : 11px;
+}
+
+
+.item__about {
+    width           : 89px;
+    height          : 23px;
+    border-radius   : 2px;
+    background-color: #c1c1c1;
+    color           : #ffffff;
+    font-family     : "Droid Sans Bold, Arial, sans-serif";
+    font-size       : 12px;
+    font-weight     : 700;
+    letter-spacing  : 0.9px;
+    line-height     : 15px;
+
+
+}
+
+.item__buy {
+    width           : 87px;
+    height          : 23px;
+    border-radius   : 2px;
+    background-color: #e27f00;
+    color           : #ffffff;
+    font-family     : "Droid Sans Bold, Arial, sans-serif";
+    font-size       : 12px;
+    font-weight     : 700;
+    letter-spacing  : 1.2px;
+    line-height     : 15px;
+    position        : relative;
+    padding-left    : 15px;
+
+    &::before {
+        content : url("img/cart-btn.svg");
+        position: absolute;
+        left    : 10px;
+        top     : 6px;
+
+    }
+}
+
+.item__rating-list {
+    @include flex;
+    margin-right: 0px;
+}
+
+.item__rating-item {
+    background-image: url("img/filled-star.svg");
+    width           : 11px;
+    height          : 11px;
+    margin-right    : 3px;
+
+
+    &:nth-child(5n) {
+        background: url("img/empty-star.svg")
+    }
+}
+
+.item__pic {
+    flex-basis   : 100%;
+    margin-bottom: 1px;
+    text-align   : center;
+}
+
+.item__pic-img {
+    width : 77px;
+    height: 197px;
+}
+
+.item__rating {
+    flex-basis: 100%;
+    @include flex;
+    margin-bottom : 5px;
+    font-weight   : normal;
+    font-size     : 14px;
+    line-height   : 15px;
+    letter-spacing: 0.05em;
+    color         : #000000;
+}
+
+.item__price-text {
+    text-align: right;
+}
+
+.item__rating-count {
+    font-family   : "Droid Sans Regular, Arial, sans-serif";
+    font-style    : normal;
+    font-weight   : normal;
+    font-size     : 10px;
+    line-height   : 15px;
+    letter-spacing: 0.1em;
+    color         : #9F9E9E;
+
+}
+
+.item__rating-wrapper {
+    @include flex;
+    flex-wrap      : nowrap;
+    justify-content: space-between;
+    flex-basis: 100%;
+}
+
+.item__name-text {
+    white-space: nowrap;
+
+}
